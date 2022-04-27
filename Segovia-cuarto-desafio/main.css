@@ -528,11 +528,26 @@ nav ul li{
       width: 600px;
     
     }
+
     
-   
   }
 
 
-  
+  /*Animaciones*/
+
+  h1{
+   transform: translate(10px, 20px);
+  }
+
+input{
+   width: 2rem;
+   height: 3rem;
+   transition: all 2s;
+  }
+
+  input:focus{
+     width: 100px;
+     font-size: 20px;
+  }
 
  
